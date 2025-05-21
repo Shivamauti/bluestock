@@ -1,0 +1,30 @@
+/* Container to center the box and limit width */
+.cta-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  
+  .cta-box {
+    max-width: 600px;
+    width: 100%;
+    animation: fadeInUp 0.8s ease-out;
+    transition: transform 0.3s ease;
+  }
+  
+  .cta-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Simple fade in + slide up animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

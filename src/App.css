@@ -1,0 +1,11 @@
+/* src/App.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 80px;
+  }
+  
+  h1 {
+    color: #343a40;
+  }
+ 
